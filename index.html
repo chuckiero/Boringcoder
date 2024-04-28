@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Search</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <h1>PWNED PASS CHECKER</h1>
+  </div>
+  <div class="message-container">
+    <p class="message">
+Disclaimer: For Entertainment and Educational Purposes Only
+
+This content is provided for entertainment and educational purposes only. All data presented in this material is sourced from COMB (Combination Of Many Breaches), a database containing information from various data breaches.
+
+Please note that while we strive to ensure accuracy, we cannot guarantee the completeness or correctness of the information provided. Additionally, it's essential to recognize that accessing and using data from breaches without proper authorization may be illegal and unethical.
+
+Any actions taken based on the information presented here are at your own risk. We do not accept any responsibility or liability for any consequences arising from the use of this content.
+
+Thank you for your understanding.</p>
+  </div>
+  <div class="container">
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search...">
+      <button id="searchButton">Search</button>
+    </div>
+    <div class="scrollable-table">
+      <table id="resultsTable">
+        <thead>
+          <tr>
+            <th>Email</th>
+            <th>Password</th>
+          </tr>
+        </thead>
+        <tbody id="resultsBody">
+        </tbody>
+      </table>
+    </div>
+    <div id="loader" class="loader"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
